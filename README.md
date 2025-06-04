@@ -1,9 +1,5 @@
 # LLM
 
-Got it! I'll update the README.md to explicitly mention Gemini AI Studio in the first step of getting the API key.
-
-Here's the revised README.md content:
-
 Gemini Function Calling Quickstart (Python)
 This project shows you how to make Google's Gemini AI model "call" a function in your Python code. We'll build a simple program where you can ask for the weather, and Gemini will tell your code to fetch it!
 
@@ -25,31 +21,31 @@ Let's prepare your computer for the code.
 Create a Project Folder:
 Open your command prompt (or terminal) and type:
 
-Bash
+Bash/cmd
 
 mkdir gemini-weather-app
 cd gemini-weather-app
 Create a Virtual Environment:
 This keeps your project's Python libraries separate.
 
-Bash
+Bash/cmd
 
 python -m venv venv
 Activate Your Virtual Environment:
 
 Windows:
-Bash
+Bash/cmd
 
 .\venv\Scripts\activate
 macOS / Linux:
-Bash
+Bash/cmd
 
 source venv/bin/activate
 (You'll see (venv) appear before your command prompt, meaning it's active.)
 
 Install Python Libraries:
 
-Bash
+Bash/cmd
 
 pip install google-generativeai python-dotenv
 3. Store Your API Key Safely
